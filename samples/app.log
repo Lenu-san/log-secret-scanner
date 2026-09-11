@@ -1,0 +1,12 @@
+2026-09-08 08:00:01 INFO  web  démarrage de l'application v3.2.1
+2026-09-08 08:00:01 INFO  db   connexion à postgres://app:Chang3Me-Now@db01.intra.example.org:5432/app
+2026-09-08 08:00:02 INFO  db   pool initialisé (10 connexions)
+2026-09-08 08:00:05 DEBUG http GET /api/health -> 200 en 3 ms
+2026-09-08 08:01:12 DEBUG http en-têtes reçus: Authorization: Basic YWRtaW46UEBzc3cwcmQxMjM= User-Agent: curl/8.4
+2026-09-08 08:01:12 WARN  auth échec d'authentification pour user=svc_backup password=********
+2026-09-08 08:02:40 INFO  sync export vers S3 avec aws_access_key_id=AKIAIOSFODNN7EXAMPLE
+2026-09-08 08:03:00 DEBUG http Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdmNfYXBwIiwiaWF0IjoxNzU3MzE1Mzgw.dGhpcy1pcy1hLXNhbXBsZS1zaWduYXR1cmU
+2026-09-08 08:04:15 INFO  cfg  paramètre ldap.bind_password=[REDACTED] chargé
+2026-09-08 08:05:00 ERROR mail SMTP AUTH PLAIN échoué pour compte noreply, pwd=Mail!2026 (tentative 3/3)
+2026-09-08 08:06:30 INFO  api  client webhook configuré, api_key=APPKEY_e3b0c44298fc1c149afbf4c8
+2026-09-08 08:07:00 INFO  http GET /api/orders -> 200 en 41 ms
